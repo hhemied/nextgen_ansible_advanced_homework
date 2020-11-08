@@ -19,7 +19,7 @@
  
 - name: install base tools and packages
   yum:
-    name: @base
+    name: "@base"
     state: present
 
   
